@@ -34,7 +34,11 @@ after removal of this unintended registration, 3317 including the new P104
 package, and only the new P104 package selected for this PR. No other existing
 manifest input consumes a path under the legacy package prefix. The scan and
 rename receipts are retained in `validation/`; the actual committed planner
-and hosted tests are checked separately.
+also passed both shared triggers and the actual-PR selection at revision
+`d8f30d033c3f838067ba2a76216a294011e098e6`. That revision also passed both
+registered P104 commands and its 69-file committed-byte/source-history
+preflight. The three executed receipts are retained in `validation/`.
+Subsequent documentation records and hosted tests are checked separately.
 
 The final isolated standalone variant passes its own complete normal replay
 in 7.617 wall seconds, including 8 NTT tests, 65537 RAM multiply slices, 5096

@@ -1,0 +1,10 @@
+{
+  "status": "PASS_ACTUAL_COMMITTED_PLANNER_REPAIR",
+  "shared_triggers_count": 3317,
+  "both_shared_triggers_identical": true,
+  "actual_PR_selection": [
+    "research/p104-cut-stability"
+  ],
+  "legacy_standalone_selected": false,
+  "head": "d8f30d033c3f838067ba2a76216a294011e098e6"
+}
