@@ -50,9 +50,15 @@ the direct runs byte for byte, and the complete inventory and file hashes
 were unchanged afterward. The raw tar SHA256 was
 `43a9a2da3208eeb14e6401675249132b392542e08e6209d6a3205e97229be04d`.
 The direct, registered, initial committed-byte and cold receipts are retained
-in `validation/`. Subsequent changes only add these validation/review records
-and update this prose; mathematical code, inputs and receipts are unchanged.
-The final publication receives its own committed-byte and export preflight.
+in `validation/`. A later CI compatibility revision also retains three legacy
+metadata originals and authenticates their provenance in SOURCES.json and its
+runtime pin. The P104 mathematical code, word, independent engine inputs and
+scientific receipts remain unchanged. The final publication receives its own
+registered, committed-byte and export preflight.
+
+The initial hosted failure and its standalone-preserving metadata correction
+are documented in `CI-METADATA-REPAIR.md`. That failure occurred before P104
+replay and must not be reported as a mathematical failure or a hosted PASS.
 
 ## Proof and implementation scope
 

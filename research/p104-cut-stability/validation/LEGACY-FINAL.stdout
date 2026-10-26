@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "source_files": 32,
+  "ram_multiply_slice": 65537,
+  "ram_butterfly_cases": 5096,
+  "whole_program_cases": 277,
+  "approximate_backend_cases_each_precision": 20,
+  "fused_static_instructions_512": 507701,
+  "maximal_1024bit_operands": {
+    "fused_steps": 391079,
+    "duplicate_steps": 636835,
+    "saved_instructions": 245756,
+    "fused_instruction_histogram": {
+      "one": 513,
+      "sub": 171797,
+      "add": 63888,
+      "mul": 7936,
+      "bltz": 146944,
+      "accept": 1
+    }
+  },
+  "seconds": 7.589,
+  "scope": "Portable source-integrity and executable replay; see paper for universal proof. No new kappa or complete Lean machine proof."
+}

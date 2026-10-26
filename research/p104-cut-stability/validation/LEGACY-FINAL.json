@@ -1,0 +1,14 @@
+{
+  "exit": 0,
+  "wall_seconds": 7.617,
+  "manifest_sha256": "5b4eba8e8b915be9af8f2415de33e36e77e4c485238d91929b06b68a29ba54f0",
+  "renamed_descriptor_unchanged": true,
+  "inventory_entries": 32,
+  "all_inventory_hashes_unchanged_after_run": true,
+  "only_changed_from_canonical": [
+    "MANIFEST.json inventory key + README hash",
+    "README.md descriptor filename",
+    "VERIFY.json renamed byte-identically to STANDALONE-VERIFY.json"
+  ],
+  "mathematical_code_data_unchanged": true
+}

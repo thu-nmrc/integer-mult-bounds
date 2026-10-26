@@ -1,0 +1,24 @@
+{
+  "bad": [
+    {
+      "all_inputs": [
+        "MANIFEST.json"
+      ],
+      "blob": "4ae0f65622d1159e1c8a051155c2ac9e2579238f",
+      "invalid": [
+        "MANIFEST.json"
+      ],
+      "manifest": "research/wordram-ntt-kernel/VERIFY.json",
+      "sha256": "a6125ea7187eaed24f883dd9600c5cef692e61d1788dabd82d8a521333870a58"
+    }
+  ],
+  "bad_count": 1,
+  "base": "13be6ac685845c1ff671f5d26e7166165abd998e",
+  "invalid_input_count": 1,
+  "local_blobs": 3227,
+  "planner_visible_manifests": 3317,
+  "remote_blobs_with_exact_git_sha1_verified": 90,
+  "research_replayed": false,
+  "source_repository_edited": false,
+  "tree_entries": 120989
+}

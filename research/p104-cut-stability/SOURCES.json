@@ -25,6 +25,21 @@
       "copy_path": "research/p104-cut-stability/inputs/WORD.json.gz",
       "sha256": "48f8734ca9c5adf5d60ded3a5fefbc24894d2c358ed7cb30fcc0d71718599446",
       "source_path": "research/p104-joint-contact/WORD.json.gz"
+    },
+    {
+      "copy_path": "research/p104-cut-stability/validation/legacy-canonical/MANIFEST.json",
+      "sha256": "37b5f83c22bdb1e97bc241da558b0b2042c38a93acd3396b397c23e0ac170943",
+      "source_path": "research/wordram-ntt-kernel/MANIFEST.json"
+    },
+    {
+      "copy_path": "research/p104-cut-stability/validation/legacy-canonical/VERIFY.json",
+      "sha256": "a6125ea7187eaed24f883dd9600c5cef692e61d1788dabd82d8a521333870a58",
+      "source_path": "research/wordram-ntt-kernel/VERIFY.json"
+    },
+    {
+      "copy_path": "research/p104-cut-stability/validation/legacy-canonical/README.md",
+      "sha256": "23084a8deb72003a42d79e01816f2275e9f38d8250e2ad411fed74a1e6d7bed8",
+      "source_path": "research/wordram-ntt-kernel/README.md"
     }
   ],
   "files": [
@@ -68,6 +83,24 @@
       "git_blob": "c04a815c2662bcd0c48ce9c3067a0fe4a041573a",
       "path": "research/p104-joint-contact/WORD.json.gz",
       "sha256": "48f8734ca9c5adf5d60ded3a5fefbc24894d2c358ed7cb30fcc0d71718599446",
+      "usage": "provenance"
+    },
+    {
+      "git_blob": "915d43afc79cacf2ec6067897766d0117c069233",
+      "path": "research/wordram-ntt-kernel/MANIFEST.json",
+      "sha256": "37b5f83c22bdb1e97bc241da558b0b2042c38a93acd3396b397c23e0ac170943",
+      "usage": "provenance"
+    },
+    {
+      "git_blob": "4ae0f65622d1159e1c8a051155c2ac9e2579238f",
+      "path": "research/wordram-ntt-kernel/VERIFY.json",
+      "sha256": "a6125ea7187eaed24f883dd9600c5cef692e61d1788dabd82d8a521333870a58",
+      "usage": "provenance"
+    },
+    {
+      "git_blob": "4e37ca5265c0e732d43183c1a56b9e66cffef1a7",
+      "path": "research/wordram-ntt-kernel/README.md",
+      "sha256": "23084a8deb72003a42d79e01816f2275e9f38d8250e2ad411fed74a1e6d7bed8",
       "usage": "provenance"
     }
   ],

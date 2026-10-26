@@ -62,6 +62,9 @@ their original narrower claims and input snapshots. The aggregate wrapper
 binds every consumed numerical field to the current source. These are separate
 author-side algorithms and reviews, not human or formal-kernel acceptance.
 Executed validation and cold replay scope are in [VALIDATION.md](VALIDATION.md).
+The incidental inherited CI declaration repair is separately documented in
+[CI-METADATA-REPAIR.md](CI-METADATA-REPAIR.md); legacy mathematical code and
+data remain unchanged, and no shared planner gate is relaxed.
 
 ## Open next questions
 

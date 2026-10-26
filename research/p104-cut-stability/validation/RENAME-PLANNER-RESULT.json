@@ -1,0 +1,26 @@
+{
+  "actual_PR_changes_selected_packages": [
+    "research/p104-cut-stability"
+  ],
+  "base_all_inputs_scanned": true,
+  "canonical_base": "13be6ac685845c1ff671f5d26e7166165abd998e",
+  "canonical_manifests": 3317,
+  "invalid_input_declarations": [
+    {
+      "input": "MANIFEST.json",
+      "manifest": "research/wordram-ntt-kernel/VERIFY.json"
+    }
+  ],
+  "no_repository_files_edited": true,
+  "no_research_executed": true,
+  "original_exception": "use an exact Git-tracked input path from HEAD: MANIFEST.json",
+  "pr5557_head": "3b154c52cb05922fc10eb8ce656a2a314bbb8187",
+  "renamed_HEAD_shared_control_selected_count": 3317,
+  "renamed_base_shared_control_selected_counts": {
+    ".github/workflows/research-package-batch.yml": 3316,
+    "scripts/research_package.py": 3316
+  },
+  "scope": "Actual unchanged planner code with authenticated finite declaration/path providers. In-memory selection test only; not research or full unittest replay.",
+  "standalone_legacy_selected_for_generic_replay": false,
+  "status": "PASS_METADATA_ONLY_PLANNER_REPRODUCTION"
+}
